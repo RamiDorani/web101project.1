@@ -1,0 +1,834 @@
+
+@media only screen and (max-width:510px){
+    body {
+        background-color: #285A7E;
+        color: #ffff;
+    }
+    #logo {
+        display: block;
+        background-image: url(../images/logo.jpg);
+        width: 315px;
+        height: 190px;
+        margin-top: 30px;
+        margin-left: 35px;
+    }
+   
+    a {
+        text-decoration: none;
+    }
+
+    ul li {
+        list-style: none;
+    }
+
+    #user-image, #user-status, #time, #grandma-pic,
+    #lineMember, .buttons, aside, .als-prev,
+    .als-next, #bin, #mobile-search,
+    .frequency, footer, #grandma-bar span{
+        display: none;
+    }
+
+    .navDropdown {
+        position: relative;
+        float: right;
+    }
+
+       
+
+    nav {
+        position: relative;
+        top: 70px;
+    }
+
+    .nav-link {
+        color: #ffff;
+    }
+    
+    #grandma-pic1 {
+        opacity: 0%;
+    }
+
+    #add img{
+        position: relative;
+        left: 400px;
+        top: 50px;
+        width: 50px;
+        height: 50px;
+    }
+
+    #familyList {
+        position: relative;
+        bottom: 20px;
+    }
+
+    .family-card {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .memberImg {
+        width: 80px;
+        height: 80px;
+    }
+
+    /*DRUG LIST PAGE*/
+    #demo1 {
+        position: relative;
+        top: 100px;
+    }
+    .imgBx {
+        background: rgb(5, 19, 65);
+    }
+
+    .imgBx img {
+        display: block;
+        margin: auto;
+        margin-top: 55px;
+    }
+    
+   
+    .als-item {
+        margin-top: 120px;
+    }
+
+    .card {
+        background: rgb(5, 19, 65);
+    }
+
+    .info>h3 {
+        display: none;
+    }
+
+    .contentBx {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+        top: 60px;
+    }
+
+    .contentBx a {
+        color: #ffff;
+        text-decoration: none;
+    }
+    
+    /*INFO PAGE*/
+    
+
+    .box-mobile .info, .box-mobile .dayli,
+    .box-mobile .expiyDate {
+        display: none;
+    }
+
+    .box-mobile a {
+        color: #ffff;
+        text-decoration: none;
+    }
+
+    #med-name {
+        position: relative;
+        top: 150px;
+        left: 20px;
+    }
+
+    #med-info {
+        position: relative;
+        top: 160px;
+        left: 20px;
+    }
+
+    /*ADD PAGE*/
+    form {
+        position: relative;
+        top: 100px;
+        left: 20px;
+    }
+
+    #prev-page {
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        position: relative;
+        left: 300px;
+        top: 100px;
+    }
+
+    #med-purp {
+        position: relative;
+        right: 15px;
+    }
+
+    .form-control {
+        width: 170px;
+    }
+}
+    
+
+
+
+
+@media only screen and (min-width:769px)
+{
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, article, footer, aside, section {
+    display: block;
+}
+
+
+body {
+    background-color: #285A7E;
+}
+a {
+    text-decoration: none;
+}
+
+/*General Design*/
+
+#logo {
+    display: block;
+    background-image: url(../images/logo.jpg);
+    width: 315px;
+    height: 190px;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+
+
+.navDropdown {
+    position: absolute;
+    left: 1310px;
+    bottom: 570px;
+    font-size: 18px;
+}
+
+.nav-link.dropdown-toggle{
+   
+    color: #ffffff;
+}
+
+#user-image {
+    position: relative;
+    left: 1300px;
+    bottom: 200px;
+    width: 119px;
+    height: 117px;
+}
+
+#user-status {
+    position: relative;
+    left: 1265px;
+    bottom: 240px;
+    width: 35px;
+    height: 35px;
+}
+
+
+nav {
+    width: 1050px;
+    position: absolute;
+    left: 370px;
+    bottom: 515px;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffff;
+}
+
+nav ul li a:hover {
+    background-color: #ffff;
+}
+
+nav ul li form input {
+    position: relative;
+    top: 10px;
+}
+nav ul li form button {
+    position: relative;
+    top: 10px;
+}
+ 
+#time {
+    position: absolute;
+    left: 1380px;
+    bottom: 500px;
+    width: 150px;
+    color: #ffff;
+}
+
+#grandma-bar {
+    position: absolute;
+    bottom: 350px;
+    left: 35px;
+}
+
+#mainTxt {
+    position: relative;
+    right: 110px;
+}
+
+
+#grandma-bar span {
+    width: 203px;
+    height: 32px;
+    font-size: 30px;
+    color: #ffff;
+    margin-left: 32px;
+}
+#grandma-pic {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 30px;
+}
+
+#grandma-pic1 {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 30px;
+    opacity: 0%;
+}
+
+#add {
+    position: absolute;
+    left: 700px;
+}
+
+#bin {
+    position: absolute;
+    left: 900px;
+}
+
+#aside-bar {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 20px;
+    top: 350px;
+    list-style: none;
+    justify-content: right;
+}
+
+#aside-bar li {
+    margin-top: 120px;
+}
+
+#aside-bar p {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#adv {
+  position: relative;
+  left: 14px;
+}
+
+#pres {
+    position: relative;
+    right: 25px;
+}
+
+#line {
+    height: 1px;
+    margin-top: 50px;
+    border:solid #C4C4C4 1px;
+}
+
+.frequency {
+  font-size: 20px;
+  font-weight: bold;
+  color:#ffff;  
+}
+
+footer
+{
+    position: absolute;
+    top: 1200px;
+    width: 1520px;
+    height: 48px;
+    background: rgb(94, 123, 158);
+    padding-left: 16px;
+    padding-top: 12px;
+}
+
+footer a {
+    margin-left: 20px;
+    color: #ffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffff;
+    text-decoration: none;
+}
+
+
+footer span
+{
+    position: absolute;
+    right: 80px;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+/*Drug List Page*/
+
+
+/*************************************
+ * generic styling for ALS elements
+ ************************************/
+
+ .als-container {
+	position: relative;
+	width: 100%;
+	margin: 0px auto;
+	z-index: 0;
+}
+
+.als-viewport {
+	position: relative;
+	overflow: hidden;
+    left: 150px;
+}
+
+.als-wrapper {
+	position: relative;
+    list-style: none;
+}
+
+.als-item {
+	position: relative;
+	display: block;
+	text-align: center;
+	cursor: pointer;
+    float: left;
+}
+
+.als-prev, .als-next {
+	position: absolute;
+	cursor: pointer;
+	clear: both;
+	z-index: 10;
+}
+/*************************************
+ * specific styling for #demo1
+ ************************************/
+
+
+
+#demo1 .als-item {
+	margin: 80px 10px;
+	padding: 4px 0px;
+	min-height: 120px;
+	min-width: 100px;
+	text-align: center;
+}
+
+#demo1 .als-item img {
+	display: block;
+	margin: 0px auto;
+}
+
+#demo1 .als-prev, #demo1 .als-next {
+    top: 220px;
+    color: #ffff;
+}
+
+#demo1 .als-prev {
+	left: 3%;
+}
+
+#demo1 .als-next {
+    right: 30%;
+}
+
+
+
+/*card design*/
+
+.containerA {
+    position: relative;
+
+}
+
+.containerA .card {
+    position: relative;
+    width: 250px;
+    height: 380px;
+    background: rgb(5, 19, 65);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.containerA .card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+     width: 100%;
+     height: 100%;
+     background: #66657e;
+     clip-path: circle(150px at 80% 20%);
+     transition: 0.5s ease-in-out;
+}
+
+.containerA .card:hover::before {
+    clip-path: circle(300px at 80% -20%);
+} 
+
+
+.containerA .card::after {
+    content: 'Care';
+    position: absolute;
+    top: 30%;
+    left: -20%;
+     font-size: 12em;
+     font-weight: 800;
+     font-style: italic;
+     color: rgba(255, 255, 255, 0.04);
+}
+
+.containerA .card .imgBx {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10000;
+    width: 100%;
+    height: 220px;
+    transition: 0.5s;
+}
+
+.containerA .card:hover .imgBx {
+    top: 0%;
+    transform: translateY(0%);
+}
+
+.containerA .card .imgBx img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 220px;
+    height: 120px;
+}
+
+.containerA .card .contentBx {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    transition: 1s;
+    z-index: 10;
+}
+
+.containerA .card:hover .contentBx {
+    height: 60px;
+}
+
+.containerA .card .contentBx h2 {
+    position: relative;
+    top: 1px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+
+.containerA .card .contentBx .info,
+.containerA .card .contentBx .expiyDate,
+.containerA .card .contentBx .dayli {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.containerA .card:hover .contentBx .info {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.5s;
+}
+
+.containerA .card:hover .contentBx .expiyDate {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.6;
+}
+
+.containerA .card:hover .contentBx .dayli {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.4;
+}
+
+
+.containerA .card .contentBx .info h3,
+.containerA .card .contentBx .expiyDate h4,
+.containerA .card .contentBx .dayli h4 {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+
+.containerA .card .contentBx .info h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.containerA .card .contentBx .info span {
+    color: #ffffff;
+    width: 100px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 14px;
+    display: inline-block;
+    background: #fff;
+    margin: 0 5px;
+    transition: 0.5s;
+    color: #111;
+    border-radius: 4px;
+}
+
+.containerA .card .contentBx .expiyDate span {
+    width: 100px;
+    height: 30px;
+    background: rgb(208, 236, 45);
+    border-radius: 4px;
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+.containerA .card .contentBx .dayli span {
+    color: #ffffff;
+    width: 100px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 14px;
+    display: inline-block;
+    background: #fff;
+    margin: 0 5px;
+    transition: 0.5s;
+    color: #111;
+    border-radius: 4px;
+}
+
+.containerA .card .contentBx a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #111;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: 0.5s;
+}
+
+
+.containerA .card:hover .contentBx a {
+    opacity: 1;
+    transform: translateY(0px);
+    transition-delay: 0.75s;
+}
+
+
+
+/*ADD PAGE*/
+
+form {
+    margin-top: 40px;
+    margin-left: 40px;
+    color: #ffff;
+    font-size: 20px;
+}
+
+#prev-page {
+    color: #ffff;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    display: none;
+}
+
+.form-control {
+    width: 300px;
+}
+
+
+#takeFor {
+    position: relative;
+    right: 400px;
+}
+
+#med-purp {
+  position: relative;
+  right: 15px;      
+}
+
+#for {
+    position: relative;
+    right: 420px;
+    top: 40px;
+}
+
+
+#drop-area {
+    border: 2px dashed #ccc;
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    font-family: sans-serif;
+    position: relative;
+    bottom: 150px;
+    left: 550px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+
+  #drop-area.highlight {
+    border-color: purple;
+  }
+ #drop-area .my-form p{
+     margin: 0 auto;
+     font-size: 22px;
+     font-weight: bold;
+    }
+  .my-form {
+    margin-bottom: 10px;
+  }
+  #gallery {
+    margin-top: 10px;
+  }
+  #gallery img {
+    width: 150px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  .button {
+    display: inline-block;
+    padding: 10px;
+    background: #ccc;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+  .button:hover {
+    background: #ddd;
+  }
+  #fileElem {
+    display: none;
+  }
+  
+  /*home page*/
+
+  #familyList {
+      list-style: none;
+      margin-top: 170px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-evenly;
+  }
+
+
+  .memberImg {
+      margin-left: 40px;
+  }
+  
+  #familyList li h2 {
+    color: #ffff;
+    margin-top: 20px;
+    margin-left: 80px;
+    
+  }
+
+  #familyList li a img {
+      margin-top: 40px;
+      padding-left: 30px;
+  }
+  
+  .lineMember {
+      position: absolute;
+      right: 150px;
+  }
+
+
+  .memberImg {
+      width: 208px;
+      height: 199px;
+      transition-property: width, height;
+  }
+
+  .memberImg:hover {
+    width: 228px;
+    height: 219px;
+    transition-duration: 2s;
+  }
+
+
+
+  /*Info Page*/
+
+  #main-wrapper
+{
+    position: relative;
+}
+
+
+#med-info {
+    width: 660px;
+    height: 420px;
+    margin: 0 auto;
+    color: #ffff;
+    font-size: 24px;
+    position: absolute;
+    top: 250px;
+    left: 450px;
+}
+
+
+
+#med-name {
+    position: absolute;
+    top: 130px;
+    left: 450px;
+    color: #ffff;
+    font-weight: bold;
+}
+
+}
+
+
+
+
+
+
+
